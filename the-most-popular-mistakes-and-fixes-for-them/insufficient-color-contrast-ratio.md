@@ -1,2 +1,0 @@
-# Insufficient color contrast ratio
-
