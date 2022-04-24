@@ -1,8 +1,10 @@
 # Missing alternative text
 
+### Intro
+
 Sometimes it’s hard to understand something without additional information. It’s why we have footnotes in books or cards with item descriptions in museums. The same story may occur on your site — especially if we remove their visual part. Add alternative text to your images by using an `alt` tag for images or the correct title in SVG elements. Thanks to that also people using screen readers will know what is in the picture. When the image is only decorative leave those tags empty or add `aria-hidden=true`— screen readers will understand and omit that. Also, check if without visual content all interactive elements are still well-labeled— tags like `aria-label`, `aria-labelledby`, `aria-description` or `aria-describedby` might be super useful in that case.
 
-#### When to use the given tags?
+### When to use the given tags?
 
 * **aria-label** => when you want to add a short description of an image/element and provide a string as a value
 * **aria-labelledby** => when you want to add a short description of an image/element and provide the ID of another element as a value&#x20;
@@ -14,7 +16,7 @@ Sometimes it’s hard to understand something without additional information. It
 
 **Note:** If your page supports multilanguage, also alternative texts should be translated!
 
-### **Example:**
+### **Example**
 
 Go to webpage: [https://dominika-zajac.github.io/a11y-for-developers-examples/text-alternative/incorrect-examples.html](https://dominika-zajac.github.io/a11y-for-developers-examples/text-alternative/incorrect-examples.html)
 
@@ -27,7 +29,7 @@ On the page you can find 4 images presenting popular mistakes with alternative t
 * the ID of element provided as a value in aria-label
 * incorrect ID provided as a value in aria-labelledby property.
 
-Check the page with Lighthouse or Accessibility Insights for Web audits (You can learn how to do so in other sections of my tutorial: [Lighthouse](../useful-tools/lighthouse-audits.md) and [Accessibility Insights for Web](../useful-tools/accessibility-insights-for-web.md)).&#x20;
+Check the page with Lighthouse or Accessibility Insights for Web audits (You can learn how to do so in other sections of my tutorial: [Lighthouse](../useful-tools/lighthouse-audits.md) and [Accessibility Insights for Web](../useful-tools/web-insights-for-web.md)).&#x20;
 
 The report should look similar to the screenshots below and informs about problems with aria labels.
 
@@ -45,7 +47,7 @@ Report from Accessibility Insights for Web:
 
 Notice that **only 3 of 5 problems were found by automated tools**. Why? Because an empty string as a value in alt property can be proper - in a case when the image is only decorative and should be ignored by screen readers. Also, the ID of another element in aria-label cannot be detected by an automated tool - it will be just read as it is for a user. It's why we need to perform manual tests!
 
-#### Exercise
+### Exercise
 
 Do you know how to fix the problems described above? Check if after your changes screen reader is reading the images properly.&#x20;
 

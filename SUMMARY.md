@@ -12,7 +12,7 @@
     * [Missing alternative text](readme/the-most-popular-mistakes-and-fixes-for-them/missing-alternative-text.md)
   * [Useful tools](readme/useful-tools/README.md)
     * [Lighthouse audits](readme/useful-tools/lighthouse-audits.md)
-    * [Accessibility Insights for web](readme/useful-tools/accessibility-insights-for-web.md)
+    * [Accessibility Insights for web](readme/useful-tools/web-insights-for-web.md)
     * [Jest-axe unit tests](readme/useful-tools/jest-axe-unit-tests.md)
     * [eslint-plugin-jsx-a11y](readme/useful-tools/eslint-plugin-jsx-a11y.md)
   * [Useful resources](readme/useful-resources.md)
