@@ -11,3 +11,7 @@ When to use the given tags?
 * **aria-description** => when you want to add additional, longer information for an element and provide a string with a description as a value
 * **aria-describedby** => when you want to add additional, longer information for an element and provide the ID of another element as a value&#x20;
 * **aria-hidden** => when an element is only decorative and should be ignored by a screen reader
+* **alt** => on img HTML element when you provide string describing the picture
+* **title** => inside svg HTML element when you provide string describing the picture
+
+**Note:** If your page supports multilanguage, also alternative texts should be translated!
