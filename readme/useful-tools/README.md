@@ -9,7 +9,7 @@ People make mistakes - it's a well-known fact. Fortunately, we have more and mor
 Tools described in the section:
 
 * [Lighthouse audits](lighthouse-audits.md)
-* [Web Insights for Web](web-insights-for-web.md)
+* [Web Insights for Web](accessibility-insights-for-web.md)
 * [jest-axe unit tests](jest-axe-unit-tests.md)
 * [eslint-plugin-jsx-a11y](eslint-plugin-jsx-a11y.md)
 
