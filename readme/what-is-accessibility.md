@@ -6,7 +6,7 @@ To put it in the simplest possible words: accessibility is a way of building pro
 
 Many people wonder why the shortcut for accessibility is a11y. It's easy - just take a look at the picture below. Just take the first and the last letters from the word "accessibility" and add a number of letters between them (11). That's all!&#x20;
 
-![A chart showing why a11y is shortcut for accessibility. ](<../.gitbook/assets/image (2).png>)
+![A chart showing why a11y is shortcut for accessibility. ](<../.gitbook/assets/image (2) (1).png>)
 
 
 

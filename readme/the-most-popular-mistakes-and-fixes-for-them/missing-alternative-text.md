@@ -26,8 +26,8 @@ On the page you can find 4 images presenting popular mistakes with alternative t
 
 * missing alt text
 * the empty string provided as alt text
-* the ID of element provided as a value in aria-label
-* incorrect ID provided as a value in aria-labelledby property.
+* the ID of the element provided as a value in the aria-label
+* incorrect ID provided as a value in the aria-labelledby property.
 
 Check the page with Lighthouse or Accessibility Insights for Web audits (You can learn how to do so in other sections of my tutorial: [Lighthouse](../useful-tools/lighthouse-audits.md) and [Accessibility Insights for Web](../useful-tools/web-insights-for-web.md)).&#x20;
 
@@ -37,13 +37,13 @@ The report should look similar to the screenshots below and informs about proble
 
 Report from Lighthouse:
 
-![Example of a report from Lighthouse with info about problems with an alternative textnananana](<../../.gitbook/assets/image (3).png>)
+![Example of a report from Lighthouse with info about problems with an alternative textnananana](<../../.gitbook/assets/image (3) (1).png>)
 
 Report from Accessibility Insights for Web:
 
-![5 images of a bunny in front of the computer. The first, third, and fifth items have a red border and exclamation mark in the top right corner.](../../.gitbook/assets/image.png)
+![5 images of a bunny in front of the computer. The first, third, and fifth items have a red border and exclamation mark in the top right corner.](<../../.gitbook/assets/image (1).png>)
 
-![Example of a report from Accessibility Insights for web with info about problems with an alternative text](<../../.gitbook/assets/image (5).png>)
+![Example of a report from Accessibility Insights for web with info about problems with an alternative text](<../../.gitbook/assets/image (5) (1).png>)
 
 Notice that **only 3 of 5 problems were found by automated tools**. Why? Because an empty string as a value in alt property can be proper - in a case when the image is only decorative and should be ignored by screen readers. Also, the ID of another element in aria-label cannot be detected by an automated tool - it will be just read as it is for a user. It's why we need to perform manual tests!
 
