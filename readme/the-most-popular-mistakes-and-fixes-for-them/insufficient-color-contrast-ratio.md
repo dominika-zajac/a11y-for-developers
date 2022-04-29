@@ -19,7 +19,7 @@ There are many ways to test your webpage to detect problems with an insufficient
 
 The generated report will contain all a11y problems found on the page. If there are problems with contrast, they will be listed in the Contrast section (like on the screenshot below).
 
-![Example of problem with isufficient color contrast ratio from Lighthouse audit. ](../../.gitbook/assets/image.png)
+![Example of problem with isufficient color contrast ratio from Lighthouse audit. ](<../../.gitbook/assets/image (1).png>)
 
 What is nice there is a list of failing elements. Each of them is clickable and navigates to the given element in the Elements tab in Chrome DevTools where you can easily experiment and fix it.&#x20;
 
@@ -35,7 +35,7 @@ Another way of finding all problematic items on the webpage is generating CSS Ov
 
 Problems with an insufficient color contrast ratio will be listed in the `Colors` section and `Contrast issues` subsection. Also here, after clicking the color preview, we'll receive a clickable list of failing elements. After clicking the list item we'll be redirected to the given element in the `Elements` tab in Chrome DevTools where we can easily experiment and fix the issue.
 
-![List of contrast isues in CSS Overview section](<../../.gitbook/assets/image (4).png>)
+![List of contrast isues in CSS Overview section](<../../.gitbook/assets/image (4) (1).png>)
 
 #### Inspect element via Chrome DevTools
 
@@ -62,7 +62,7 @@ You can also use the Accessibillity Insights for Web tool to detect problems wit
 
 Detected problems with contrast will look like the screenshot below. You can use the link to learn more about the problem, highlight the failing element to easily find it on the page, or use a snippet to find the element to fix. Note that in the `How to fix` section you'll receive a new color which will fill the contrast criteria.
 
-![Example of problem with an insufficient color contrast ratio in report from Accessibility For Web tool.](<../../.gitbook/assets/image (6).png>)
+![Example of problem with an insufficient color contrast ratio in report from Accessibility For Web tool.](<../../.gitbook/assets/image (6) (1).png>)
 
 ### How to fix problems with color contrast
 
@@ -78,7 +78,7 @@ Go to the page [https://github.com/dominika-zajac/a11y-for-developers-examples/t
 
 Note that automated tools didn't find the problem with the second button because an insufficient color contrast ratio is there only on hover. However, if you force to hover state on the element from the Chrome DevTools and inspect it manually, you can see that the problem exists.
 
-![Button with the forced hover state from the Chrome DevTools and visible problem with color contrast in styling tooltip.](<../../.gitbook/assets/image (3).png>)
+![Button with the forced hover state from the Chrome DevTools and visible problem with color contrast in styling tooltip.](<../../.gitbook/assets/image (3) (1).png>)
 
 ### Exercise
 
