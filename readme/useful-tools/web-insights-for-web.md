@@ -34,7 +34,7 @@ When automated audit and Tabs stops are checked open the `Needs review` tab and 
 
 The `Assessment` section is super useful when you need to perform detailed manual testing. It's quite long so it's not performed after each merge request but e.g. before releasing a big feature or regularly e.g. once a month. It guides you among 24 categories and provides tips on what should be checked and how. There is also support for tracking progress, saving assessments, and exporting the results. In some cases, the tool will also provide a list of elements to test. All sections have great descriptions so I recommend you to just open and test them.
 
-![Assesment checklist from the tool.](<../../.gitbook/assets/image (3).png>)
+![Assesment checklist from the tool.](<../../.gitbook/assets/image (3) (1).png>)
 
 #### Ad hoc tools
 

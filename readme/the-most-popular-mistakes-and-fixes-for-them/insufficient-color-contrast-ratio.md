@@ -78,7 +78,7 @@ Go to the page [https://github.com/dominika-zajac/a11y-for-developers-examples/t
 
 Note that automated tools didn't find the problem with the second button because an insufficient color contrast ratio is there only on hover. However, if you force to hover state on the element from the Chrome DevTools and inspect it manually, you can see that the problem exists.
 
-![Button with the forced hover state from the Chrome DevTools and visible problem with color contrast in styling tooltip.](<../../.gitbook/assets/image (3) (1).png>)
+![Button with the forced hover state from the Chrome DevTools and visible problem with color contrast in styling tooltip.](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 ### Exercise
 

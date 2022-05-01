@@ -37,7 +37,7 @@ The report should look similar to the screenshots below and informs about proble
 
 Report from Lighthouse:
 
-![Example of a report from Lighthouse with info about problems with an alternative textnananana](<../../.gitbook/assets/image (3) (1) (1).png>)
+![Example of a report from Lighthouse with info about problems with an alternative textnananana](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Report from Accessibility Insights for Web:
 
