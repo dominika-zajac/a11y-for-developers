@@ -43,7 +43,7 @@ Report from Accessibility Insights for Web:
 
 ![5 images of a bunny in front of the computer. The first, third, and fifth items have a red border and exclamation mark in the top right corner.](<../../.gitbook/assets/image (1) (1).png>)
 
-![Example of a report from Accessibility Insights for web with info about problems with an alternative text](<../../.gitbook/assets/image (5) (1) (1).png>)
+![Example of a report from Accessibility Insights for web with info about problems with an alternative text](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 Notice that **only 3 of 5 problems were found by automated tools**. Why? Because an empty string as a value in alt property can be proper - in a case when the image is only decorative and should be ignored by screen readers. Also, the ID of another element in aria-label cannot be detected by an automated tool - it will be just read as it is for a user. It's why we need to perform manual tests!
 

@@ -22,13 +22,6 @@ Another topic is about things that **shouldn't happen** on navigation. Typical a
 
 The last comment, mostly connected with usability, is **the number of clicks/presses needed to navigate** through the content. If you need to press Tab 20 times to reach the main article on the page, you should probably reconsider your structure, provide the link to skip the navigation or implement some shortcuts.&#x20;
 
-### **Example**
-
-****
-
 ### **Excercise**
 
-Can you fix navigation problems from the example mentioned above? You can run the code:
-
-* locally from GitHub ([https://github.com/dominika-zajac/a11y-for-developers-examples/tree/main/text-alternative](https://github.com/dominika-zajac/a11y-for-developers-examples/tree/main/text-alternative))
-* in Stackblitz online editor (note that Lighthouse doesn't work in this setup): [https://stackblitz.com/github/dominika-zajac/a11y-for-developers-examples?file=text-alternative%2Fincorrect-examples.html](https://stackblitz.com/github/dominika-zajac/a11y-for-developers-examples?file=text-alternative%2Fincorrect-examples.html)&#x20;
+Unplug your mouse from the computer and navigate through your webpage only with the keyboard. Is it as simple as using the mouse? Can you access everything?&#x20;
