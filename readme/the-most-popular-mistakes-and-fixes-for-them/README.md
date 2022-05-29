@@ -8,4 +8,6 @@ Topics included in my list:
 
 * [Insufficient color contrast ratio](insufficient-color-contrast-ratio.md)
 * [Missing alternative text](missing-alternative-text.md)
-
+* [Incorrect keyboard navigation](incorrect-keyboard-navigation.md)
+* [Problems with audio/movies](problems-with-audio-movies.md)
+* [Incorrect links](incorrect-links.md)
